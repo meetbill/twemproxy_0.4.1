@@ -6,9 +6,13 @@
 
 To build twemproxy from [distribution tarball](https://drive.google.com/open?id=0B6pVMMV5F5dfMUdJV25abllhUWM&authuser=0):
 
-    $ ./configure
-    $ make
-    $ sudo make install
+```
+# 生成 ./configure 文件
+$ autoreconf -fvi
+$ ./configure
+$ make
+$ sudo make install
+```
 
 To build twemproxy from [distribution tarball](https://drive.google.com/open?id=0B6pVMMV5F5dfMUdJV25abllhUWM&authuser=0) in _debug mode_:
 
